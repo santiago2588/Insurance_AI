@@ -37,8 +37,6 @@ def run():
     st.sidebar.info('This app is created to predict patient hospital charges')
     st.sidebar.success('https://www.pycaret.org')
     
-    st.sidebar.image(image_hospital)
-
     st.title("Insurance Charges Prediction App")
 
     if add_selectbox == 'Online':
